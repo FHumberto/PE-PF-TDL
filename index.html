@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>To-Do List Simples</title>
-  </head>
-  <body>
-    <script src="app.js"></script>
-  </body>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c72c43c12d.js" crossorigin="anonymous"></script>
+  <title>To-Do List Simples</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1>To-Do Simples</h1>
+    <form class="form-search">
+      <input class="form-input" type="text" name="search" placeholder="Pesquisar atividade..." autocomplete="off">
+    </form>
+    <ul class="list-container">
+
+      <li class="list-group-item"><span class="inner-item">Exemplo de lembrete</span>
+        <em class="fa-solid fa-trash inner-item"></em>
+      </li>
+
+      <li class="list-group-item"><span class="inner-item">Atividade Tal</span>
+        <em class="fa-solid fa-trash inner-item"></em>
+      </li>
+
+      <li class="list-group-item"><span class="inner-item">Evento Tal</span>
+        <em class="fa-solid fa-trash inner-item"></em>
+      </li>
+
+    </ul>
+    <form class="form-add">
+      <input class="form-input" type="text" name="add" placeholder="Adicionar atividade...">
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
 </html>
